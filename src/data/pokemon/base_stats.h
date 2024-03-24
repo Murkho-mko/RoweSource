@@ -9319,14 +9319,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZANGOOSE] =
     {
-        .baseHP        = 75,//73 -> 75
+        .baseHP        = 75,
         .baseAttack    = 115,
         .baseDefense   = 60,
         .baseSpAttack  = 60,
         .baseSpDefense = 60,
         .baseSpeed     = 110,
         .type1 = TYPE_NORMAL,
-        .type2 = TYPE_NORMAL,
+        .type2 = TYPE_ELECTRIC,
         .catchRate = 90,
         .expYield = 160,
         .evYield_Attack    = 2,
@@ -38549,14 +38549,14 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_TYPHLOSION] =
     {
-        .baseHP        = 78,
+        .baseHP        = 80,
         .baseAttack    = 84,
-        .baseDefense   = 78,
+        .baseDefense   = 80,
         .baseSpeed     = 100,
-        .baseSpAttack  = 109,
+        .baseSpAttack  = 110,
         .baseSpDefense = 85,
         .type1 = TYPE_FIRE,
-        .type2 = TYPE_FIRE,
+        .type2 = TYPE_GROUND,
         .catchRate = 45,
         .expYield = 240,
         .evYield_SpAttack  = 3,
@@ -44041,7 +44041,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .baseSpAttack  = 100,
         .baseSpDefense = 125,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_WATER,
+        .type2 = TYPE_FAIRY,
         .catchRate = 60,
         .expYield = 189,
         .evYield_SpDefense = 2,
@@ -50213,7 +50213,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_WATER_3,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_DEFEATIST, ABILITY_NONE},
+            .abilities = {ABILITY_MOXIE, ABILITY_NONE},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
@@ -50241,7 +50241,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_WATER_3,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_DEFEATIST, ABILITY_NONE},
+            .abilities = {ABILITY_MOXIE, ABILITY_NONE},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif
