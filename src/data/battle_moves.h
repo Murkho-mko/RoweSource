@@ -2435,10 +2435,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_ROCK_SLIDE] =
     {
         .effect = EFFECT_FLINCH_HIT,
-        .power = 75,
+        .power = 90,
         .type = TYPE_ROCK,
-        .accuracy = 90,
-        .pp = 10,
+        .accuracy = 100,
+        .pp = 15,
         .secondaryEffectChance = 30,
         .target = MOVE_TARGET_BOTH,
         .priority = 0,
