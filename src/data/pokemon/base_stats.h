@@ -9879,7 +9879,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 30,
         .baseSpDefense = 90,
         .type1 = TYPE_GHOST,
-        .type2 = TYPE_GHOST,
+        .type2 = TYPE_FIGHTING,
         .catchRate = 190,
         .expYield = 59,
         .evYield_SpDefense = 1,
@@ -9890,7 +9890,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_PRANKSTER, ABILITY_NONE},
+        .abilities = {ABILITY_IRON_FIST, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_FRISK,
         #endif
@@ -9920,7 +9920,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_PRESSURE, ABILITY_IRON_FIST},
+        .abilities = {ABILITY_IRON_FIST, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_FRISK,
         #endif
@@ -13334,7 +13334,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_PRESSURE, ABILITY_IRON_FIST},
+        .abilities = {ABILITY_IRON_FIST, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_FRISK,
         #endif
