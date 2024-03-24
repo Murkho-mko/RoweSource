@@ -120,12 +120,12 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_ZIGZAGOON"
+                "species": "SPECIES_TREECKO"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_LILLIPUP"
+                "species": "SPECIES_TREECKO"
               },
               {
                 "min_level": 2,
@@ -150,7 +150,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_TEDDIURSA"
+                "species": "SPECIES_TREECKO"
               },
               {
                 "min_level": 3,
