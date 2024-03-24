@@ -13316,13 +13316,13 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_DUSKNOIR] =
     {
         .baseHP        = 45,
-        .baseAttack    = 100,
+        .baseAttack    = 110,
         .baseDefense   = 135,
         .baseSpeed     = 45,
         .baseSpAttack  = 65,
         .baseSpDefense = 135,
         .type1 = TYPE_GHOST,
-        .type2 = TYPE_GHOST,
+        .type2 = TYPE_FIGHTING,
         .catchRate = 45,
         .expYield = 236,
         .evYield_Defense   = 1,
@@ -13334,7 +13334,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_PRESSURE, ABILITY_NONE},
+        .abilities = {ABILITY_PRESSURE, ABILITY_IRON_FIST},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_FRISK,
         #endif
